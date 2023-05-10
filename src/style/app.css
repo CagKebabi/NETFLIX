@@ -1,0 +1,138 @@
+.indexMain {
+  background-color: #141414;
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.indexMain .container {
+  max-width: 80%;
+}
+.indexMain .container h1 {
+  color: #fff;
+  font-size: 3.5vw;
+  font-weight: unset;
+  width: 100%;
+  text-align: center;
+  margin: 0.67em 0;
+}
+.indexMain .container ul {
+  display: flex;
+  gap: 2vw;
+  margin: 2em;
+}
+.indexMain .container ul li {
+  max-width: 200px;
+  min-width: 84px;
+  width: 10vw;
+}
+.indexMain .container ul li a {
+  text-decoration: none;
+}
+.indexMain .container ul li a img {
+  width: 10vw;
+  max-height: 200px;
+  max-width: 200px;
+  min-height: 84px;
+  min-width: 84px;
+  border-radius: 4px;
+}
+.indexMain .container ul li a img:hover {
+  outline: 4px solid white;
+}
+.indexMain .container ul li a img:hover + div {
+  color: white;
+}
+.indexMain .container ul li a div {
+  color: grey;
+  font-size: 1.3vw;
+  line-height: 1.2em;
+  margin: 0.6em 0;
+  min-height: 1.8em;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+.indexMain .container span {
+  font-size: 0.75vw;
+  display: flex;
+  justify-content: center;
+}
+.indexMain .container span a {
+  width: fit-content;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2vw;
+  letter-spacing: 2px;
+  margin: 2em 0 1em;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+}
+.indexMain .container span a:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

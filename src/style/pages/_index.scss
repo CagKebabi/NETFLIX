@@ -1,0 +1,79 @@
+.indexMain {
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+        max-width: 80%;
+        h1 {
+            color: #fff;
+            font-size: 3.5vw;
+            font-weight: unset;
+            width: 100%;
+            text-align: center;
+            margin: 0.67em 0;
+        }
+        ul {
+            display: flex;
+            gap: 2vw;
+            margin: 2em;
+            li {
+                max-width: 200px;
+                min-width: 84px;
+                width: 10vw;
+                a {
+                    text-decoration: none;
+                    img {
+                        width: 10vw;
+                        max-height: 200px;
+                        max-width: 200px;
+                        min-height: 84px;
+                        min-width: 84px;
+                        border-radius: 4px;
+                        &:hover {
+                            outline: 4px solid white;
+                        }
+                        &:hover + div {
+                            color: white;
+                        }
+                    }
+                    div {
+                        color: grey;
+                        font-size: 1.3vw;
+                        line-height: 1.2em;
+                        margin: 0.6em 0;
+                        min-height: 1.8em;
+                        overflow: hidden;
+                        text-align: center;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+        span {
+            font-size: .75vw;
+            display: flex;
+            justify-content: center;
+            a {
+                width: fit-content;
+                background-color: transparent;
+                border: 1px solid grey;
+                color: grey;
+                cursor: pointer;
+                display: block;
+                font-size: 1.2vw;
+                letter-spacing: 2px;
+                margin: 2em 0 1em;
+                padding: 0.5em 1.5em;
+                text-decoration: none;
+                &:hover {
+                    border: 1px solid white;
+                    color: white;
+                }
+            }
+        }
+    }
+}
